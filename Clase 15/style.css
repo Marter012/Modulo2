@@ -1,0 +1,22 @@
+#inputText{
+    border-radius: 15px;   
+
+}
+
+#input.pinta{
+    border-color: bisque;
+}
+button{
+    margin: 10px;
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+.contenedor{
+    text-align: center;
+}
+.img-peli{
+    width: 100px;
+    height: auto;
+}

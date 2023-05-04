@@ -1,0 +1,12 @@
+.form-field.success input{
+    border: 1px solid green;
+}
+.form-field.error input{
+    border: 1px solid red;
+}
+.form-field small {
+    color: coral;
+    max-width: 350px;
+    text-align: center;
+    padding: 7px 0;    
+}

@@ -1,0 +1,13 @@
+.contenedor-form.Exito input{
+    border: 2px solid green;
+}
+
+.contenedor-form.Error input{
+    border: 2px solid red;
+}
+.contenedor-form small {
+    color: coral;
+    max-width: 350px;
+    text-align: center;
+    padding: 7px 0;
+}

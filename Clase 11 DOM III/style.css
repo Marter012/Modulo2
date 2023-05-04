@@ -1,0 +1,17 @@
+body{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.btn-delete{
+    width: 50px;
+    height: 20px;
+}
+ul{
+    list-style: none;
+}
+
+.ocultar{
+    display: none;
+}

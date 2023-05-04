@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Hola soy el titulo</h1>
+    <p>Soy el primer parrafo</p>
+    <a href="https://www.youtube.com/watch?v=OLt5fDZQzwM"></a>
+    <h2>Hola soy el primer h2</h2>
+    <ul>
+        <li>
+            <a href="https://outlook.live.com/mail/0/"></a>
+        </li>
+    </ul>
+    <hr class="hr" />
+    <!-- Evento llamado por onclick  -->
+    <h3 onclick="alert(`Clickeaste el h3`)">Evento llamado desde html</h3>
+   <!-- Llamar un alert con un escuchador e eventos desde js -->
+    <h3 id="alerth3"> Evento llamado desde js</h3>
+    <!-- blur / focus -->
+    <h3>Focus / Blur</h3>
+    <input id="inputblur" placeholder="Ingresa un dato" type="text">
+   <!-- Change -->
+   <h3>Change</h3>
+   <input id="inputchange" placeholder="Ingresa una comida" type="text">
+   
+   <!-- Mostrar ocultar una imagen con JS-->
+   <div class="container">
+    <h3>Mostrar y Ocultar con .style</h3>
+    <img id="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Eiche_bei_Graditz.jpg/1200px-Eiche_bei_Graditz.jpg" alt="">
+        <div class="btns">
+            <button id="hide"> ocultar img</button>
+            <button id="show"> mostrar img</button>
+        </div>
+    </div>
+    <hr>
+    <!-- Mostrar ocultar una imagen con clases -->
+    <div class="container">
+    <h3 class="my">Mostrar y Ocultar con Classlist</h3>
+    <img id="imgtoggle" class="ocultar" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Eiche_bei_Graditz.jpg/1200px-Eiche_bei_Graditz.jpg" alt="">
+        <div class="btns">
+            <button id="toggle"> Mostras - Ocultar img</button>
+        </div>
+    </div>
+    <hr>
+    <!-- Eventos Key -->
+    <h3>Eventos keyboard</h3>
+    <input id="keyboard" type="text">
+    <button class="btn">Enviar</button>
+    <!-- Contador -->
+    <hr>
+    <div class="container">
+        <h3>Contador : <span id="resultado">-</span></h3>
+        <button class="btn-aumentar">Aumentar</button>
+        <button class="btn-disminuir">Disminuir</button>
+        <button class="btn-reset">Reset</button>
+    </div>
+   <script src="./main.js"></script>    
+</body>
+</html>
