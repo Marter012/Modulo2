@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zappi</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <img src="./img/19.png" alt="">
+        <div class="cont-icons">
+            <a href="./index.html"><i class="fa-solid fa-house icon" style="color: #ffa100;"></i></a>
+            <i class="fa-solid fa-cart-shopping icon" onclick="Mostrar()" style="color: #ffa100;"></i>
+            <i class="fa-solid fa-user icon" style="color: #ffa100;"></i>
+        </div>
+        <div class="menu hidden">
+            <i class="fa-solid fa-xmark" onclick="Ocultar()" style="color: #ffffff;"></i>
+            <p>Tus Productos</p>
+            <form class="menu-form" action="">
+                <div class="cont-menu-lista">
+
+                </div>
+                <div class="cont-menu-linea">
+                    <p >SubTotal:</p>
+                    <p class="suma"></p>
+                </div>
+                <div class="cont-menu-linea">
+                    <p>Envio:</p>
+                    <p>Gratis</p>
+                </div>
+                <hr>
+                <div class="cont-menu-linea">
+                    <p >Total:</p>
+                    <p class="total"></p>
+                </div>
+                <button>Comprar</button>
+            </form>
+        </div>
+    </header>
+    
+    <div class="cont-zappi">
+        <div class="cont-zappi-text" >
+            <h1>Si tenes Zappi,</h1>
+            <h2>tenes NuCba.</h2>
+            <p>Buscá lo que quieras y NuCba te quedes sin comida.</p>
+            <button>Ver Más</button>
+        </div>
+        <div>
+            <img class="img1" src="./img/1.png" alt="">
+            <img class="img2" src="./img/2.png" alt="">
+        </div>
+    </div>    
+    <div class="cont-recomendacion">
+        <p>Hoy te recomendamos :</p>
+        <div id="cajaReco" class="cont-recomendacion-pack">
+            
+        </div>
+    </div>
+    <div class="cont-categorias">
+        <p>Categorías</p>
+        <div class="cont-categorias-items">
+            
+        </div>
+    </div>
+    <div class="cont-popular">
+        <p>Los más Populares</p>
+        <div class="cont-popular-div">
+            
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/672f4f1f79.js" crossorigin="anonymous"></script>
+    <script src="./reques.js"></script>
+    <script src="./main.js"></script>    
+</body>
+</html>
